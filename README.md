@@ -1,2 +1,2 @@
-# get-url
-Get the parts of the current URL
+# get-url-parts
+Get all parts of the current URL

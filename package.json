@@ -1,5 +1,5 @@
 {
-  "name": "get-url",
+  "name": "get-url-parts",
   "version": "1.0.0",
   "description": "Get the parts of the current URL",
   "main": "index.js",
@@ -8,23 +8,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Babak-Gholamzadeh/get-url.git"
+    "url": "git+https://github.com/Babak-Gholamzadeh/get-url-parts.git"
   },
   "keywords": [
     "URL",
     "path",
     "protocol",
-    "hos",
-    "domain",
     "port",
+    "href",
+    "hash",
+    "host",
     "query",
-    "string",
     "anchor"
   ],
   "author": "Babak Gholamzadeh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Babak-Gholamzadeh/get-url/issues"
+    "url": "https://github.com/Babak-Gholamzadeh/get-url-parts/issues"
   },
-  "homepage": "https://github.com/Babak-Gholamzadeh/get-url#readme"
+  "homepage": "https://github.com/Babak-Gholamzadeh/get-url-parts#readme"
 }
