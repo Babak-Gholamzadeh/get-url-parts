@@ -1,0 +1,30 @@
+{
+  "name": "get-url",
+  "version": "1.0.0",
+  "description": "Get the parts of the current URL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Babak-Gholamzadeh/get-url.git"
+  },
+  "keywords": [
+    "URL",
+    "path",
+    "protocol",
+    "hos",
+    "domain",
+    "port",
+    "query",
+    "string",
+    "anchor"
+  ],
+  "author": "Babak Gholamzadeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Babak-Gholamzadeh/get-url/issues"
+  },
+  "homepage": "https://github.com/Babak-Gholamzadeh/get-url#readme"
+}
