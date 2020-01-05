@@ -21,6 +21,8 @@ getURL.host();
 getURL.port();
 // Returns the protocol of the current URL (string)
 getURL.protocol();
+// Returns the hash part of the current URL (string)
+getURL.anchor();
 // Returns the path of the current URL (string)
 getURL.path();
 // Returns the query string of the current URL (object)
