@@ -1,6 +1,8 @@
 # get-url-parts
 Get all parts of the current URL
 
+[npm package](https://www.npmjs.com/package/get-url-parts)
+
 ### Installation
 ```
 npm i get-url-parts
