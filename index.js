@@ -1,27 +1,35 @@
 const getURL = {
-    href() {
-        return window.location.href;
+    href(url) {
+        url = new URL(url || window.location.href);
+        return url.href;
     },
-    origin() {
-        return window.location.origin;
+    origin(url) {
+        url = new URL(url || window.location.href);
+        return url.origin;
     },
-    host() {
-        return window.location.hostname;
+    host(url) {
+        url = new URL(url || window.location.href);
+        return url.hostname;
     },
-    port() {
-        return window.location.port;
+    port(url) {
+        url = new URL(url || window.location.href);
+        return url.port;
     },
-    protocol() {
-        return window.location.protocol;
+    protocol(url) {
+        url = new URL(url || window.location.href);
+        return url.protocol;
     },
-    path() {
-        return window.location.pathname;
+    path(url) {
+        url = new URL(url || window.location.href);
+        return url.pathname;
     },
-    anchor() {
-        return window.location.hash
+    anchor(url) {
+        url = new URL(url || window.location.href);
+        return url.hash
     },
-    query() {
-        return window.location.search.substr(1).split('&').reduce((obj, property) =>
+    query(url) {
+        url = new URL(url || window.location.href);
+        return url.search.substr(1).split('&').reduce((obj, property) =>
             (Object.assign(obj, Object.fromEntries([property.split('=')]))), {});
     }
 }
